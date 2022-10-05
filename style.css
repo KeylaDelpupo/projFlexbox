@@ -1,0 +1,26 @@
+ *{box-sizing: border-box;
+
+}
+
+  
+body{
+    padding:0;margin:0;
+}
+
+.caixa{
+    width: 669px;
+    margin: 20px auto;
+    border: 3px solid gray;
+    padding: 1px;
+    display:flex;
+    flex-wrap: wrap;
+}
+
+.caixa div{
+
+    padding: 20px;
+    background-color: rgb(178, 224, 224);
+    margin:10px;
+    width:200px;
+    border: 4px dotted rgb(236, 236, 19);
+}
